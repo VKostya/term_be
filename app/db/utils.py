@@ -1,7 +1,7 @@
 from db.db_engine import SessionLocal
 
 
-# Dependency для получения DB session
+# Функция для получения сессии
 def get_db():
     db = SessionLocal()
     try:
